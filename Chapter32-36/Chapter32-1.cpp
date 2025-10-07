@@ -1,14 +1,12 @@
-myheader.h:
-void myfunction();  //function declaration
-source.cpp:
-#include "myheader.h" //include the header
+#include "myheader.h"
 #include <iostream>
+
 int main()
 {
-    myfunction();
+    myfuntion()ว
 }
-// function definition
-void myfunction()
+
+void myfuntion()
 {
-    std::cout << "Hello World from multiple files.";
+    std::cout << "Hello World from multiple files";
 }
